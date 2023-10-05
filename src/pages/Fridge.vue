@@ -55,17 +55,6 @@ function clear() {
   window.location.reload();
 }
 
-/*
-function getDrinkCount(type: string) {
-  const filteredDrinks = store.drinks.filter(   //props.drinks.filter
-      (drink) => {
-        return drink.value === type
-      }
-  )
-  return filteredDrinks.length;
-}*/
-
-
 defineEmits(["addDrinkClick", "removeDrinkClick"]);
 
 
